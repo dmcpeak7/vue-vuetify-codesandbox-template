@@ -12,7 +12,7 @@
 
     <v-text-field
       label="Our current office location"
-      value="Corner room in Pioneer Dorm Lobby"
+      value="Corner room in Pioneer Dorm Lobby. We will have a new location very soon!"
       prepend-icon="location_on"
       class="disable"
     ></v-text-field>

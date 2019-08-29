@@ -107,7 +107,7 @@
             <div class="bold">How do I submit a support ticket?</div>
           </template>
           <v-card>
-            <v-card-text class="blue darken-0">You can submit a ticket by going to suppport.mvnu.edu</v-card-text>
+            <v-card-text class="blue darken-0">You can submit a ticket by going to support.mvnu.edu</v-card-text>
           </v-card>
         </v-expansion-panel-content>
       </v-expansion-panel>
