@@ -8,8 +8,7 @@
             Motherboard takes care of everyone across campus, most of the
             time it's professors that call motherboard for help during the
             day. This can take time away from students that are needing help
-            with their stuff. Signal Team's working hours were created to be
-            at times when most students would be available.
+            with their stuff. Signal Team's working hours are 5pm - 8pm daily.
           </h1>
         </v-card>
       </section>

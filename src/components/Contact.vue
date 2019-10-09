@@ -1,6 +1,6 @@
 <template>
   <v-container class="container">
-    <v-text-field value="(740)-324-5545" label="Phone Number" prepend-icon="call" class="disable"></v-text-field>
+    <v-text-field value="(740)-324-5545" label="Phone Number" prepend-icon="textsms" class="disable"></v-text-field>
 
     <v-text-field
       label="email"
