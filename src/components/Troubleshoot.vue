@@ -1,6 +1,29 @@
 <template>
   <v-container>
     <v-flex>
+    <v-expansion-panel class="panel">
+        <v-expansion-panel-content
+          v-for="(item,i) in 1"
+          :key="i"
+          :class="{'light-blue darken-2': i % 2 === 0}"
+        >
+          <template v-slot:header>
+            <div class="bold">Where can I get wifi on campus?</div>
+          </template>
+          <v-card>
+            <v-card-text
+              class="blue darken-0"
+            >Wifi is available in areas marked in blue. Future areas are marked in green.</v-card-text>
+            <v-img
+              src="/CampusLabMap.jpg"
+              lazy-src="/CampusLabMap.jpg"
+            ></v-img>
+          </v-card>
+        </v-expansion-panel-content>
+      </v-expansion-panel>
+
+      <v-divider/>
+
       <v-expansion-panel class="panel">
         <v-expansion-panel-content
           v-for="(item,i) in 1"
